@@ -1,0 +1,16 @@
+{
+  "name": "iot-backend",
+  "version": "1.0.0",
+  "description": "IoT backend with ngrok live dashboard",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "sensor": "node sensor-script/sendData.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
